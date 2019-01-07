@@ -36,7 +36,7 @@ hours = 12;//Narox
         errors: ['time']
       }).then(collected => {//Narox
         let room = message.guild.channels.find('name' , collected.first().content);//Narox
-        if(!room) return message.channel.send(':heavy_multiplication_x:| **i Found It :(**');//Narox
+        if(!room) return message.channel.send(':heavy_multiplication_x:| **ما لقيتها يا غبي لا تحاول :(**');//Narox
         room = collected.first().content;
         collected.first().delete();//Narox
         msg.edit(':eight_pointed_black_star:| **Time For The Giveaway**').then(msg => {
